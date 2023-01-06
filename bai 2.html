@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>bai 2</title>
+<!--  <script src="index.js"></script>-->
 </head>
 <body>
-<form>
+
+<!--<form>-->
   <table>
     <tr>
       <td>Amount</td>
@@ -14,23 +16,29 @@
       <td></td>
     </tr>
     <tr>
-      <td ><input type="text" placeholder="nhập số"></td>
       <td>
-        <select>
-          <option value="VND"> VND</option>
+        <input id="1" type="text" placeholder="nhập số">
+      </td>
+      <td>
+        <select id="2">
+          <option   value="VND"> VND</option>
           <option value="USD"> USD</option>
         </select>
       </td>
-      <td><select>
+      <td>
+        <select id="3">
         <option value="VND"> VND</option>
         <option value="USD"> USD</option>
-
-      </select>
-        <td><input type="submit" value="convert"></td>
+        </select>
+      </td>
+      <td>
+        <button  onclick="doitien()"> conrvet </button>
       </td>
       <td></td>
     </tr>
   </table>
-</form>
+  <p id ="viet"></p>
+<!--</form>-->
+<script src="js.js"></script>
 </body>
 </html>
